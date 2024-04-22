@@ -6,7 +6,6 @@ USER node
 
 # Create app directory (with user `node`)
 RUN mkdir -p /home/node/app
-
 WORKDIR /home/node/app
 
 # Install app dependencies
